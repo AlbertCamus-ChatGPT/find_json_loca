@@ -23,7 +23,7 @@ def find_keys_by_value(data, target_value, current_path=""):
 
 try:
     # 讀取 "find_json.txt" 檔案的內容
-    with open("C:\\Users\\Blood\\Documents\\Python\\rorschach_stock_bot\\04_short\\find_json.txt", "r", encoding="utf-8") as file:
+    with open("自行替換路徑\\find_json.txt", "r", encoding="utf-8") as file:
         input_str = file.read()
 
     # 使用 ast.literal_eval() 解析輸入字串
